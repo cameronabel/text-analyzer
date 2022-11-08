@@ -38,6 +38,10 @@ const text = "hello there";
 wordCounter(text);
 Expected Output: 2
 
+Test: "It should return 0 for an empty string."
+Code: wordCounter("");
+Expected Output: 0
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
